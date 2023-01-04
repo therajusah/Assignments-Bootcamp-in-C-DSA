@@ -4,3 +4,42 @@ int main(){
 printf("Hello Students");
 return 0;
 }
+
+// Question 2. Write a program to print Hello in the first line and Students in the second line.
+
+#include <stdio.h>
+int main(){
+printf("Hello\nStudent");
+return 0;
+}
+
+//3. Write a program to print “MySirG” on the screen. (Remember to print in double quotes)
+
+#include <stdio.h>
+int main(){
+printf("\"MySirG\"");
+return 0;
+}
+
+// 4. WAP to find the area of the circle. Take radius of circle from user as input and print the
+result in below given format.
+
+#include <stdio.h>
+int main(){
+float R;
+  printf("Enter raduis to find Area of circle");
+  scanf("%f", &R);
+  float pie = 3.14;
+  float A = pie*R*R;
+  printf("The area of circle is %f", A);
+  return 0;  
+}
+
+// 5. WAP to calculate the length of String using printf function.
+#include<stdio.h>
+int main(){
+String A;
+Scanf("%S", &A);
+printf("Length of String %S" S.length);
+return 0;
+}
