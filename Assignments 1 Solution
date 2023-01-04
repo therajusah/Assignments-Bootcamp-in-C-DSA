@@ -36,10 +36,4 @@ float R;
 }
 
 // 5. WAP to calculate the length of String using printf function.
-#include<stdio.h>
-int main(){
-String A;
-Scanf("%S", &A);
-printf("Length of String %S" S.length);
-return 0;
-}
+
