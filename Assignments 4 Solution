@@ -1,1 +1,11 @@
                                  // Questions is based on Iterative Control Statements
+//1. Write a program to check whether a given number is positive or non-positive.
+#include <stdio.h>
+int main() {
+  int i =1;
+  while(i<=5){
+    printf("mysiirg\n");
+      i++;
+  }
+  return 0;
+}
