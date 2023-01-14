@@ -76,3 +76,32 @@ int main() {
   printf("Sum is: %i\n", sum);
   return 0;
 }
+
+// 6. Write a program to calculate factorial of a number
+
+#include<stdio.h>
+int main(){
+  int i,j,k=1;
+  printf("Enter a Postibve number: ");
+  scanf("%d", &j);
+  for (i=1; i<=j; i++){
+    k = k * i;
+  }
+  printf("Factorial of %d is %d \n", j,k);
+}
+
+// 7. Write a program to count digits in a given number
+
+#include<stdio.h>
+int main(){
+  int i, len = 0;
+  printf("Enter a number: ");
+  scanf("%d", &i);
+  
+  while(i != 0){
+    i /= 10;
+    len++;
+  }
+  printf("Length of the entered digit is: %d \n", len);
+  return 0;
+}
