@@ -21,5 +21,18 @@ int main(){
     case(5):
     printf("May has 31 day");
     break;
+    case(6):
+    printf("June has 30 day");
+    break;
+    case(7):
+    printf("July has 31 day");
+    break;
+    case(8):
+    printf("August has 31 day");
+    break;
+    case(9):
+    printf("September has 30 day");
+    break;
+    
   }
 }
