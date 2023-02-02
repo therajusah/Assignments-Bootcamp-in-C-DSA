@@ -1,1 +1,21 @@
+// 1. Write a program which takes the month number as an input and display number of days in that month.
 
+#include<stdio.h>
+int main(){
+  printf("Enter month in number to get the date: ");
+  int month;
+  scanf("%d", &month);
+  switch(month){
+    case(1):
+    printf("January has 31 day");
+    break;
+    case(2):
+    printf("February has 28 day");
+      break;
+      case(3):
+    printf("March has 31 day");
+    break;
+    case(4);
+    
+  }
+}
