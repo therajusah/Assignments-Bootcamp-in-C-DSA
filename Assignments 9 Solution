@@ -15,7 +15,11 @@ int main(){
       case(3):
     printf("March has 31 day");
     break;
-    case(4);
-    
+    case(4):
+    printf("April has 30 day");
+    break;
+    case(5):
+    printf("May has 31 day");
+    break;
   }
 }
