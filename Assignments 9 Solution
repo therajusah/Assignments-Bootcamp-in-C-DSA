@@ -33,6 +33,14 @@ int main(){
     case(9):
     printf("September has 30 day");
     break;
-    
+    case(10):
+    printf("October has 31 day");
+    break;
+    case(11):
+    printf("November has 30 day");
+    break;
+    case(12):
+    printf("December has 31 day");
+    break;
   }
 }
