@@ -44,3 +44,7 @@ int main(){
     break;
   }
 }
+
+// Q 3. Write a program which takes the day number of a week and displays a unique greeting message for the day.
+
+
