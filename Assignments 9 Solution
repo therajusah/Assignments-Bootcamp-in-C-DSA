@@ -75,6 +75,11 @@ int main() {
     printf("Sunday is for Anday");
     break;
   }
-}      
+}  
+
+// 6. Program to check whether a year is a leap year or not. Using switch
+statement
+
+
 
 
