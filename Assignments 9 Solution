@@ -105,5 +105,14 @@ int main(){
 int i;
 printf("Enter a year");
 scanf("%d",&i);
-
+int year = i%4==0;
+switch(year){
+case 1: 
+printf("Year is leap year");
+break;
+  default:
+printf("Year is not loop year");
+}
+return 0;
+}
 
