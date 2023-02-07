@@ -117,6 +117,8 @@ return 0;
 }
 
 /* 2. Write a menu driven program with the following options:
+a. Addition
+b. Subtraction
 
 */
 
