@@ -123,5 +123,3 @@ c. Multiplication
 d. Division
 e. Exit
 */
-
-#include<stdio.h>
