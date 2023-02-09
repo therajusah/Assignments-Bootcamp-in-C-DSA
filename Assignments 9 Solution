@@ -86,6 +86,7 @@ int main() {
 }  
 
 
+
 /* 5. Convert the following if-else-if construct into switch case:
 if(var == 1)
 System.out.println("good");
@@ -96,6 +97,26 @@ System.out.println("best");
 else
 System.out.println("invalid");
 */
+#include <stdio.h>
+int main(){
+ int k; 
+  scanf("%d", &k);
+  switch(k){
+    case 1:
+    printf("good");
+    break;
+    case 2:
+    printf("better");
+    break;
+    case 3:
+    printf("best");
+    break;
+    default:
+    printf("invalid");
+    }
+}
+
+
 
 // 6. Program to check whether a year is a leap year or not. Using switch
 statement
@@ -115,27 +136,6 @@ printf("Year is not loop year");
 }
 return 0;
 }
-
-/* 2. Write a menu driven program with the following options:
-a. Addition
-b. Subtraction
-c. Multiplication
-d. Division
-e. Exit
-*/
-
-
-/* 5. Convert the following if-else-if construct into switch case:
-if(var == 1)
-System.out.println("good");
-else if(var == 2)
-System.out.println("better");
-else if(var == 3)
-System.out.println("best");
-else
-System.out.println("invalid");
-*/
-
 
 
 7. Program to take the value from the user as input electricity unit charges
