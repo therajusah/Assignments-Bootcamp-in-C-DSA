@@ -52,6 +52,45 @@ c. Multiplication
 d. Division
 e. Exit 
 */
+// Q 4.
+
+#include <stdio.h>
+int main() {
+  int A, B, C, D;
+  printf("Enter three integer: ");
+  scanf("%d %d %d", &A, &B, &C);
+  printf("Enter \n 1 for isosceles triangle\n 2 for right angle \n 3 for equilateral triangle\n ");
+  scanf("%d", &D);
+  switch (D) {
+  case (1): {
+    if (A == B || A == C || B == C) {
+      printf("YES! This is a isosceles Triangle\n");
+    } else {
+      printf("NO this is  not isosceles triange\n");
+    }
+    break;
+  }
+  case (2): {
+    if (A + B == C || A + C == B || B + C == A) {
+      printf("This is a right angle traingle\n");
+    } else {
+      printf("NO This is not right angle triangle \n");
+    }
+    break;
+  }
+  case (3): {
+    if (A==B & B==C & C==A) {
+      printf("This a equilateral triangle\n");
+    } else {
+      printf("No this is not equilateral triangle\n");
+    }
+    }
+    break;
+  default:
+    printf("Exit\n");
+  }
+  }
+
 
 // Q 3. Write a program which takes the day number of a week and displays a unique greeting message for the day.
 
