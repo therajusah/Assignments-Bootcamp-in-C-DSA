@@ -2,3 +2,5 @@
 // Question pdf link :- https://drive.google.com/file/d/1GuBtpn2Mg0L-AFs9puVwUyz8424VM1iw/view
 // 1. Write a function to calculate the area of a circle. (TSRS)
 // 2. Write a function to calculate simple interest. (TSRS)
+// 3. Write a function to check whether a given number is even or odd. Return 1 if the
+number is even, otherwise return 0. 
