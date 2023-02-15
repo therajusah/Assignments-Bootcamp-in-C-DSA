@@ -18,29 +18,28 @@ float aoc(float r){
   return(c);
 }
 // 2. Write a function to calculate simple interest. (TSRS)
-
-#include<stdio.h>
-int main(){
-  float p,t,r,d;
+#include <stdio.h>
+int main() {
+  printf("This is program to find out Simple Interest.\n");
+  float p, t, r, d;
   float si(float, float, float);
   printf("Enter principle amount: ");
-   scanf("%f", &p);
+  scanf("%f", &p);
   printf("Enter time: ");
-   scanf("%f",&t);
-   printf("Enter rate of interest: ");
+  scanf("%f", &t);
+  printf("Enter rate of interest: ");
   scanf("%f", &r);
-  
- d = si(p,t,r);
-  printf("SI is %f", d);
-  // getch();
+
+  d = si(p, t, r);
+  printf("Simple Interest is %f", d);
 }
 
-float si(float x, float y, float z)
-{
- float j;
-  j=((x*y*z)/100);
-  return(j);
+float si(float x, float y, float z) {
+  float j;
+  j = ((x * y * z) / 100);
+  return (j);
 }
+
 
 /* 3. Write a function to check whether a given number is even or odd. Return 1 if the
 number is even, otherwise return 0. (TSRS) */
