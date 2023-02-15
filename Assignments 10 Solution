@@ -1,6 +1,40 @@
                // Questions based on Functions in C Language
 // Question pdf link :- https://drive.google.com/file/d/1GuBtpn2Mg0L-AFs9puVwUyz8424VM1iw/view
 // 1. Write a function to calculate the area of a circle. (TSRS)
+#include<stdio.h>
+
+ int main()
+{
+  float aoc(float);
+  float a,d;
+  printf("Enter radius of Circle: ");
+  scanf("%f", &a);
+  d = aoc(a);
+  printf("Area of Circle is %f", d);
+}
+float aoc(float r){
+  float c;
+  c=3.14*r*r;
+  return(c);
+}
 // 2. Write a function to calculate simple interest. (TSRS)
+
+#include<stdio.h>
+int main(){
+  float p,t,r,d;
+  float si(float, float, float);
+  scanf("%f %f %f", &p, &t, &r);
+ d = si(p,t,r);
+  printf("SI is %f", d);
+  // getch();
+}
+
+float si(float x, float y, float z)
+{
+ float j;
+  j=((x*y*z)/100);
+  return(j);
+}
+
 /* 3. Write a function to check whether a given number is even or odd. Return 1 if the
 number is even, otherwise return 0. (TSRS) */
