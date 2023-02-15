@@ -23,7 +23,13 @@ float aoc(float r){
 int main(){
   float p,t,r,d;
   float si(float, float, float);
-  scanf("%f %f %f", &p, &t, &r);
+  printf("Enter principle amount: ");
+   scanf("%f", &p);
+  printf("Enter time: ");
+   scanf("%f",&t);
+   printf("Enter rate of interest: ");
+  scanf("%f", &r);
+  
  d = si(p,t,r);
   printf("SI is %f", d);
   // getch();
