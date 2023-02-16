@@ -43,3 +43,20 @@ float si(float x, float y, float z) {
 
 /* 3. Write a function to check whether a given number is even or odd. Return 1 if the
 number is even, otherwise return 0. (TSRS) */
+
+#include <stdio.h>
+char* eod(int a);
+int main(){
+  int num;
+  printf("Enter an integer:");
+  scanf("%d", &num);
+  printf("%s", eod(num));
+  return 0;
+}
+char* eod(int num){
+  if(num%2 ==0){
+    return "Your number is even: ";
+  } else{
+    return "Your number is odd: ";
+  }
+}
