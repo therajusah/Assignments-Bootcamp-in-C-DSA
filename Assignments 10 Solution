@@ -60,3 +60,7 @@ char* eod(int num){
     return "Your number is odd: ";
   }
 }
+
+
+// 4. Write a function to print first N natural numbers (TSRN)
+
