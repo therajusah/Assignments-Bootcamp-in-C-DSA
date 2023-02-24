@@ -77,3 +77,5 @@ for (int i = 1; i <= x; i++) {
     printf("%d\n", i);
   }
 }
+
+// Write a function to print first N odd natural numbers. (TSRN)
