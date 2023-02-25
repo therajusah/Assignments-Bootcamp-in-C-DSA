@@ -94,4 +94,4 @@ for (int i = 1; i <= x; i++) {
   }
 }
 
-// Write a function to calculate the factorial of a number. (TSRS)
+//6. Write a function to calculate the factorial of a number. (TSRS)
