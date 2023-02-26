@@ -10,3 +10,5 @@ int main(){
 
 
 // 2. Write a function to calculate HCF of two numbers. (TSRS)
+
+// 3. Write a function to check whether a given number is Prime or not. (TSRS)
